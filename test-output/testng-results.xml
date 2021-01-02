@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11266" started-at="2020-10-04T05:58:42Z" finished-at="2020-10-04T05:58:53Z">
+  <suite name="Default suite" duration-ms="6836" started-at="2021-01-01T07:15:45Z" finished-at="2021-01-01T07:15:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11266" started-at="2020-10-04T05:58:42Z" finished-at="2020-10-04T05:58:53Z">
-      <class name="restAPI_Conventional.Testscript_GET">
-        <test-method status="PASS" signature="test_01()[pri:0, instance:restAPI_Conventional.Testscript_GET@6950e31]" name="test_01" duration-ms="5460" started-at="2020-10-04T05:58:42Z" finished-at="2020-10-04T05:58:48Z">
+    <test name="Default test" duration-ms="6836" started-at="2021-01-01T07:15:45Z" finished-at="2021-01-01T07:15:52Z">
+      <class name="restAPI_ShortHand.TestScriptPojoClass_POST">
+        <test-method status="PASS" signature="beforeTestScriptPojoClass_POST()[pri:0, instance:restAPI_ShortHand.TestScriptPojoClass_POST@13eb8acf]" name="beforeTestScriptPojoClass_POST" is-config="true" duration-ms="1201" started-at="2021-01-01T07:15:45Z" finished-at="2021-01-01T07:15:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_01 -->
-        <test-method status="PASS" signature="test_02()[pri:0, instance:restAPI_Conventional.Testscript_GET@6950e31]" name="test_02" duration-ms="3217" started-at="2020-10-04T05:58:48Z" finished-at="2020-10-04T05:58:51Z">
+        </test-method> <!-- beforeTestScriptPojoClass_POST -->
+        <test-method status="PASS" signature="test_POST_01()[pri:0, instance:restAPI_ShortHand.TestScriptPojoClass_POST@13eb8acf]" name="test_POST_01" duration-ms="5598" started-at="2021-01-01T07:15:46Z" finished-at="2021-01-01T07:15:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_02 -->
-        <test-method status="PASS" signature="test_03()[pri:0, instance:restAPI_Conventional.Testscript_GET@6950e31]" name="test_03" duration-ms="1017" started-at="2020-10-04T05:58:51Z" finished-at="2020-10-04T05:58:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_03 -->
-        <test-method status="PASS" signature="test_04()[pri:0, instance:restAPI_Conventional.Testscript_GET@6950e31]" name="test_04" duration-ms="1482" started-at="2020-10-04T05:58:52Z" finished-at="2020-10-04T05:58:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_04 -->
-      </class> <!-- restAPI_Conventional.Testscript_GET -->
+        </test-method> <!-- test_POST_01 -->
+      </class> <!-- restAPI_ShortHand.TestScriptPojoClass_POST -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

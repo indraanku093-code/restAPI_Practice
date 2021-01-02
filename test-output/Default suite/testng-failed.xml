@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testdemo.TestScript01">
+      <class name="restAPI_ShortHand.TestScriptStatic_POST">
         <methods>
-          <include name="test_GET_01"/>
+          <include name="test_POST_01"/>
+          <include name="beforeTestScriptStatic_POST"/>
         </methods>
-      </class> <!-- testdemo.TestScript01 -->
+      </class> <!-- restAPI_ShortHand.TestScriptStatic_POST -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
